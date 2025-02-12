@@ -1,8 +1,8 @@
 // Your code here...
 #include <stdio.h>
 int main(){
-    int pi;
+    int x;
     printf("a single floating-point nmber");
-    scanf("%f",&pi);
-    printf("%f",pi)
+    scanf("%f",&x);
+    printf("%f",x)
 }
