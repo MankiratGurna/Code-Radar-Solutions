@@ -3,6 +3,6 @@
 int main(){
     int pi;
     printf("a single floating-point nmber");
-    scanf("%d",&pi);
-    printf("%d",pi)
+    scanf("%f",&pi);
+    printf("%f",pi)
 }
