@@ -8,5 +8,6 @@ int main(){
         for(y=x;y>0;y--){
             printf(" *")
         }
+        printf("")
     }
 }
