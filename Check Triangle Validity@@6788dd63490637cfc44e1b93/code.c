@@ -8,7 +8,7 @@ int main() {
     scanf("%d",&y);
     scanf("%d",&z);
     if((1/2*x*y !=0)&&(1/2*y*z !=0){
-        printf("Valid";)
+        printf("Valid");
     }else{
         printf("Invalid");
     }
