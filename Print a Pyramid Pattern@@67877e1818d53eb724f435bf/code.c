@@ -6,9 +6,9 @@ int main(){
     int x,i,j,k;
     scanf("%d",&x);
     for(i=1;i<=x;i++){
+        int  z= (int)pow(2,i);
         for(j=1;j<=x-i+1;j++){
             printf(" ");
-            int  z= (int)pow(2,i);
         }
         for(k=1;k<=z-1;k++){
             printf("* ");
