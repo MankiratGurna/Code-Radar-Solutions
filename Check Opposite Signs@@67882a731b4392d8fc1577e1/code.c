@@ -1,13 +1,15 @@
-// Your code here..
+
 #include <stdio.h>
+
 int main(){
-    int x,y;
-    scanf("%d",&x);
-    scanf("%d",&y);
-    if((x<0 && y>0)||(x>0 && y<0)){
+    int x, y;
+    scanf("%d", &x);
+    scanf("%d", &y);
+    if ((x < 0 && y > 0) || (x > 0 && y < 0)){
         printf("True");
-    }else{
-        prinf("False");
+    } else {
+        printf("False");
     }
-return 0;
+
+    return 0;
 }
