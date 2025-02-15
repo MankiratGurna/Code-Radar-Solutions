@@ -1,16 +1,15 @@
 // Your code here...
-#include<stdio.h>
+#include <stdio.h>
 #include <ctype.h>
-int main(){
-    char x;
-    scanf("%c",&x);
-    char u = toupper(x);
-    if(!isalpha(x)){
-        printf("Not an alphabet")
-    }else if(x== u){
-        printf("Uppercase");
+
+int main() {
+    char ch;
+    scanf("%c", &ch);
+
+    if (isupper(ch)) {
+        printf("%c is an uppercase letter.\n", ch);
+    } else {
+        printf("%c is not an uppercase letter.\n", ch);
     }
-    else{
-        printf("Lowercase");
-    }
-}
+
+    return 0;
