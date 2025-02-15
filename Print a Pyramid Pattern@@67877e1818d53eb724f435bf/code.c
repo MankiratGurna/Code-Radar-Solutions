@@ -8,7 +8,7 @@ int main(){
     for(i=1;i<=x;i++){
         for(j=1;j<=x-i+1;j++){
             printf(" ");
-            int z=2**i;
+            int  z= (int)pow(2,i);
         }
         for(k=1;k<=z-1;k++){
             printf("* ");
