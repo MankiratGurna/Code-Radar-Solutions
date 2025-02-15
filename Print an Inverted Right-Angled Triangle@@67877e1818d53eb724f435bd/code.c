@@ -2,9 +2,9 @@
 #include <stdio.h>
 #include<ctype.h>
 int main(){
-    int x,i;
+    int x,i,y;
     scanf("%d",&x);
     for(i=x;i>0;i-=1){
-        printf("*");
+        for(y=x;y>0;y--)
     }
 }
