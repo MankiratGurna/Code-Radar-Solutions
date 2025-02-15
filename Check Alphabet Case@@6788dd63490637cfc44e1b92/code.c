@@ -8,7 +8,7 @@ int main(){
     if(x== u){
         printf("Uppercase");
     }
-    else if(x!=char){
+    else if(!isalpha(x)){
         printf("Not an alphabet")
     }else{
         printf("Lowercase");
