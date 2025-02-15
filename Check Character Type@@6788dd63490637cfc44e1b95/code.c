@@ -7,7 +7,7 @@ int main(){
     scanf("%c",&x);
     if (isalpha(x)){
         char ch=tolower(x);
-        if((ch=='a') ||(ch=='e')' || (ch=='i') || (ch=='o') || (ch=='u')){
+        if((ch=='a') ||(ch=='e') || (ch=='i') || (ch=='o') || (ch=='u')){
             printf("Vowel");
         }else{
             printf("Consonant");
