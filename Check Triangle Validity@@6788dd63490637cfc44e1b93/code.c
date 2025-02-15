@@ -7,7 +7,7 @@ int main() {
     scanf("%d",&x);
     scanf("%d",&y);
     scanf("%d",&z);
-    if((0.5*x*y !=0) && (0.5*y*z !=0)){
+    if((x+y>z)&&(y+z>x)&&(z+x>y)){
         printf("Valid");
     }else{
         printf("Invalid");
