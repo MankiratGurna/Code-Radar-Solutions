@@ -9,12 +9,10 @@ int main(){
             printf(" ");
         }
         printf("\n");
-    }
-    for(i=1;i<=x;i++){
-        for(y=1;y<=i;y++){
-            printf("*  ");
-        }
-        printf("\n");
-        }
+       for(y=1;y<=i;y++){
+            printf("*  ");}
+        
+        printf("\n");}
+        
     return 0;
 }
