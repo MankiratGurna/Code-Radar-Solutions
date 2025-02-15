@@ -3,13 +3,17 @@
 #include <ctype.h>
 
 int main() {
-    char ch;
-    scanf("%c", &ch);
-
-    if (isupper(ch)) {
-        printf("%c is an uppercase letter.\n", ch);
+    char x;
+    scanf("%c", &x);
+    char u = toupper(x);
+    
+    if (!isalpha(x)) {
+        printf("Not an alphabet");
+    } else if (x == u) {
+        printf("Uppercase");
     } else {
-        printf("%c is not an uppercase letter.\n", ch);
+        printf("Lowercase");
     }
 
     return 0;
+}
