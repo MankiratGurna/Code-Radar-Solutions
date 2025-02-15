@@ -2,17 +2,14 @@
 #include <stdio.h>
 #include<ctype.h>
 int main(){
-    int x,i,y;
+    int x,i,j,k;
     scanf("%d",&x);
-    for(i=x;i>=1;i--){
-        for(y=1;y<=i;y++){
+    for(i=1;i<=x;i++){
+        for(j=1;j<=x-i+1;j++){
             printf(" ");
         }
-        
-       for(y=1;y<=i;y++){
-            printf("*");}
-        
-        printf("\n");}
-        
-    return 0;
+        for(k=1;k<=i;k++){
+            printf("*");
+        }
+    }printf("\n");
 }
