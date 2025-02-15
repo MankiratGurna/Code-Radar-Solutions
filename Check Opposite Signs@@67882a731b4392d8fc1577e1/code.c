@@ -9,5 +9,5 @@ int main(){
     }else{
         prinf("False");
     }
-
+return 0;
 }
