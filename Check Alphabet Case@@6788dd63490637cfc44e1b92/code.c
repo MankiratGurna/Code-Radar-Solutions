@@ -5,12 +5,12 @@ int main(){
     char x;
     scanf("%c",&x);
     char u = toupper(x);
-    if(x== u){
+    if(!isalpha(x)){
+        printf("Not an alphabet")
+    }else if(x== u){
         printf("Uppercase");
     }
-    else if(!isalpha(x)){
-        printf("Not an alphabet")
-    }else{
+    else{
         printf("Lowercase");
     }
 }
