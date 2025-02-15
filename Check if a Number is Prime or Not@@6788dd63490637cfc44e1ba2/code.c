@@ -3,7 +3,7 @@
 #include<ctype.h>
 int main(){
     int x,i;
-    flag = 0;
+    int flag = 0;
     scanf("%d",&x);
     if(x<=1){
         printf("Not Prime");
