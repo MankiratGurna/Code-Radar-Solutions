@@ -1,5 +1,6 @@
 #include<stdio.h>
-void insertionsort(char arr[],int n);
+void insertionSort(char arr[],int n);
+void printArray(char arr[], int n);
 int main(){
     int n;
     scanf("%d",&n);
@@ -7,7 +8,7 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%c",&arr[i]);    
     }
-    insertionsort(arr,n);
+    insertionSort(arr,n);
     printArray(arr,n);
     return 0;
 }
