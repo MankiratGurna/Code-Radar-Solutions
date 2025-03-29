@@ -6,7 +6,7 @@ int main(){
     scanf("%d",&n);
     char arr[n];
     for(int i=0;i<n;i++){
-        scanf("%c",&arr[i]);    
+        scanf(" %c",&arr[i]);    
     }
     insertionSort(arr,n);
     printArray(arr,n);
