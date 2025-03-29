@@ -6,7 +6,7 @@ int main(){
     scanf("%d",&n);
     int arr[n];
     for(int i=0;i<n;i++){
-        scanf("%d",&arr[1]);
+        scanf("%d",&arr[i]);
     }
     freq(arr,n);
 }
