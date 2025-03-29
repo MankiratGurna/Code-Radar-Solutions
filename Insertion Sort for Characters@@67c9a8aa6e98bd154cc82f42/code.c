@@ -11,7 +11,7 @@ int main(){
     printArray(arr,n);
     return 0;
 }
-void insertionsort(char arr[],int n){
+void insertionSort(char arr[],int n){
     char temp;
     for (int i = 0; i < n - 1; ++i) {
         for (int j = 0; j < n - i - 1; ++j) {
@@ -23,4 +23,10 @@ void insertionsort(char arr[],int n){
             }
         }
     }
+}
+void printArray(char arr[], int n) {
+    for (int i = 0; i < n; i++) {
+        printf("%c ", arr[i]);
+    }
+    printf("\n");
 }
